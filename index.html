@@ -310,42 +310,42 @@
         <ul class="customers-list list">
           <li class="customers-item">
             <a href="" class="customers-link link">
-              <svg class="customers-icon" weight="104" height="56">
+              <svg class="customers-icon" width="104" height="56">
                 <use href="./images/sprite.svg#icon-Logo1"></use>
               </svg>
             </a>
           </li>
           <li class="customers-item">
             <a href="" class="customers-link link">
-              <svg class="customers-icon" weight="104" height="56">
+              <svg class="customers-icon" width="104" height="56">
                 <use href="./images/sprite.svg#icon-Logo2"></use>
               </svg>
             </a>
           </li>
           <li class="customers-item">
             <a href="" class="customers-link link">
-              <svg class="customers-icon" weight="104" height="56">
+              <svg class="customers-icon" width="104" height="56">
                 <use href="./images/sprite.svg#icon-Logo3"></use>
               </svg>
             </a>
           </li>
           <li class="customers-item">
             <a href="" class="customers-link link">
-              <svg class="customers-icon" weight="104" height="56">
+              <svg class="customers-icon" width="104" height="56">
                 <use href="./images/sprite.svg#icon-Logo4"></use>
               </svg>
             </a>
           </li>
           <li class="customers-item">
             <a href="" class="customers-link link">
-              <svg class="customers-icon" weight="104" height="56">
+              <svg class="customers-icon" width="104" height="56">
                 <use href="./images/sprite.svg#icon-Logo5"></use>
               </svg>
             </a>
           </li>
           <li class="customers-item">
             <a href="" class="customers-link link">
-              <svg class="customers-icon" weight="104" height="56">
+              <svg class="customers-icon" width="104" height="56">
                 <use href="./images/sprite.svg#icon-Logo6"></use>
               </svg>
             </a>
@@ -399,6 +399,23 @@
             </li>
           </ul>
         </div>
+        <div class="footer-subscribe">
+          <p class="footer-subscribe-title">Subscribe</p>
+          <form class="footer-form">
+            <input
+              arealable="email"
+              class="subscribe-input"
+              name="subscribe-email"
+              placeholder="E-mail"
+            />
+            <button class="footer-btn-subscribe" type="submit">
+              <span>Subscribe</span>
+              <svg class="subscribe-icon" width="24" height="20">
+                <use href="./images/sprite.svg#icon-paper-plane"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
 
@@ -410,6 +427,81 @@
             <use href="./images/sprite.svg#icon-close-black-18dp-2-1"></use>
           </svg>
         </button>
+
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+        <form class="modal-form">
+          <div class="modal-field">
+            <label class="input-text" for="user-name">Name</label>
+            <div class="input-wrap">
+              <input
+                type="text"
+                name="user-name"
+                id="user-name"
+                class="modal-input"
+              />
+              <svg class="modal-icon" width="18" height="18">
+                <use href="./images/sprite.svg#icon-person-black-18dp-1"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-field">
+            <label class="input-text" for="user-phone">Phone</label>
+            <div class="input-wrap">
+              <input
+                type="tel"
+                name="user-phone"
+                id="user-phone"
+                class="modal-input"
+              />
+              <svg class="modal-icon" width="18" height="24">
+                <use href="./images/sprite.svg#icon-phone-black-18dp-1"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-field">
+            <label class="input-text" for="user-email">Email</label>
+            <div class="input-wrap">
+              <input
+                type="email"
+                name="user-email"
+                id="input-text"
+                class="modal-input"
+              />
+              <svg class="modal-icon" width="18" height="24">
+                <use href="./images/sprite.svg#icon-email-black-18dp-1"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-field-comment">
+            <label class="input-text" for="user-comment">Comment</label>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              class="modal-message"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="modal-field-accept">
+            <input
+              class="input-check visually-hidden"
+              type="checkbox"
+              id="policy"
+              value="accept"
+            />
+            <label for="policy" class="check-text">
+              <span>
+                <svg class="check-icon" width="10" height="8">
+                  <use href="./images/sprite.svg#icon-check"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the&nbsp
+              <a href="#" class="privacy-link">Privacy Policy</a></label
+            >
+          </div>
+          <button class="modal-btn-send link pointer" type="submit">
+            Send
+          </button>
+        </form>
       </div>
     </div>
 

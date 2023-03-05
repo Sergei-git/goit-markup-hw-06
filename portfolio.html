@@ -290,7 +290,7 @@
     <!-- Футер -->
     <footer class="footer">
       <div class="container">
-        <section class="webstudio">
+        <div class="webstudio">
           <a class="footer-logo link" href="./index.html"
             ><span class="blue-word">web</span>studio</a
           >
@@ -298,8 +298,8 @@
             Increase the flow of customers and sales for your business with
             digital marketing & growth solutions.
           </p>
-        </section>
-        <section class="soc-media">
+        </div>
+        <div class="soc-media">
           <p class="soc-media-text">social media</p>
           <ul class="footer-soc-list list">
             <li class="footer-soc-item">
@@ -331,7 +331,24 @@
               </a>
             </li>
           </ul>
-        </section>
+        </div>
+        <div class="footer-subscribe">
+          <p class="footer-subscribe-title">Subscribe</p>
+          <form class="footer-form">
+            <input
+              arealable="email"
+              class="subscribe-input"
+              name="subscribe-email"
+              placeholder="E-mail"
+            />
+            <button class="footer-btn-subscribe" type="submit">
+              <span>Subscribe</span>
+              <svg class="subscribe-icon" width="24" height="20">
+                <use href="./images/sprite.svg#icon-paper-plane"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
   </body>
