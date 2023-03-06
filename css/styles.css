@@ -193,12 +193,14 @@ img {
 }
 
 .hero-title {
-  margin-bottom: 48px;
   color: var(--white-color);
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  width: 500px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .pointer {
@@ -486,7 +488,6 @@ img {
 
 .footer .container {
   display: flex;
-  gap: 120px;
   align-items: baseline;
 }
 
@@ -511,6 +512,10 @@ img {
   letter-spacing: 0.02em;
   color: var(--footer-text-color);
   width: 264px;
+}
+
+.soc-media {
+  margin-left: 120px;
 }
 
 .soc-media-text {
@@ -555,6 +560,10 @@ img {
   background-color: #31d0aa;
 }
 
+.footer-subscribe {
+  margin-left: 80px;
+}
+
 .footer-subscribe-title {
   display: block;
   font-weight: 500;
@@ -567,7 +576,6 @@ img {
 
 .footer-form {
   display: flex;
-  gap: 24px;
 }
 
 .subscribe-input {
@@ -820,6 +828,10 @@ img {
 }
 
 .modal-field-comment {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #998e92;
   margin-bottom: 16px;
 }
 
@@ -957,6 +969,9 @@ img {
   border: none;
   padding: 16px 32px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition-property: background-color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-btn-send:hover,
